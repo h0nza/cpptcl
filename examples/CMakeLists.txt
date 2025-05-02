@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.8)
 
 add_executable(example2 example2.cc)
 target_link_libraries(example2 PUBLIC cpptcl_static cpptcl_runtime ${TCL_STUB_LIBRARY} ${TCL_LIBRARY})
